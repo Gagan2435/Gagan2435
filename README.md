@@ -1,11 +1,10 @@
 <div align="center">
 
-# ⚡ Gagandeep
+#  Gagandeep
 
 **B.Tech Computer Engineering · Thapar Institute of Engineering & Technology · 2027**
 
 ![](https://img.shields.io/badge/CGPA-8.55%2F10-6C63FF?style=flat-square)
-![](https://img.shields.io/badge/Location-Sunam%2C%20Punjab-6C63FF?style=flat-square)
 ![](https://komarev.com/ghpvc/?username=Gagan2435&label=Visitors&color=6C63FF&style=flat-square)
 
 *Turning ML research, GPU code, and cloud systems into things that actually run.*
@@ -16,14 +15,14 @@
 
 ## 🧭 Currently
 
-- 🔬 Working on multilingual emotion-aware speech AI — 6 Indian languages, ML + acoustic features
-- ⚙️ Comfortable going from CUDA kernels to serverless AWS pipelines
-- 📄 Co-contributor on a Punjabi emotional speech dataset heading toward a conference publication
-- 🌱 Into tech-for-sustainability and open-source work on the side
+-  Working on multilingual emotion-aware speech AI — 6 Indian languages, ML + acoustic features
+-  Comfortable going from CUDA kernels to serverless AWS pipelines
+-  Co-contributor on a Punjabi emotional speech dataset heading toward a conference publication
+-  Into tech-for-sustainability and open-source work on the side
 
 <br>
 
-## 🧑‍🔬 Experience
+## Experience
 
 **ML Research Intern** — *Emotion-Aware Multilingual Speech AI, ELC Internship (under Dr. Aditi)* · Summer 2025
 - Built a chatbot detecting emotion from speech across Hindi, Punjabi, Malayalam, Telugu, Gujarati & Bengali using ML and acoustic features
@@ -31,7 +30,7 @@
 
 <br>
 
-## 🧩 Projects
+##  Projects
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -54,15 +53,6 @@
 
 **Core CS**
 `Data Structures & Algorithms` `Operating Systems` `DBMS` `OOP` `Software Engineering`
-
-<br>
-
-## 📈 GitHub Stats
-
-<div align="center">
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Gagan2435&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gagan2435&layout=compact&theme=radical&hide_border=true" />
-</div>
 
 <br>
 
