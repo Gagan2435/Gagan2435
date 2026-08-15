@@ -18,9 +18,13 @@
 
 ## Experience
 
-**ML Research Intern** — *Emotion-Aware Multilingual Speech AI, ELC Internship, Thapar Institute (under Dr. Aditi)* · Summer 2025
+**ML Research Intern** — *Emotion-Aware Multilingual Speech AI* · ELC Internship, Thapar Institute of Engineering & Technology, under Dr. Aditi · Summer 2025
 
-Built a speech emotion detection system spanning six Indian languages. Owned the Punjabi module end to end — designed the recording protocol, ran the data collection with 15 volunteers, engineered acoustic features, and trained the classifier. The dataset is now feeding into an in-progress conference publication.
+Joined a research team building a multilingual voice assistant that reads emotion from speech across six Indian languages — Hindi, Punjabi, Malayalam, Telugu, Gujarati, and Bengali. Within a six-person effort spanning all six languages, I was individually responsible for the Punjabi language track, run as an independent sub-project under the same supervision and publication goal.
+
+Day to day, this meant coordinating and supervising live recording sessions inside the university (not just running a script against existing audio), making protocol decisions about sentence selection and emotion balance across the dataset, and iterating on the acoustic feature set once the first model runs came back weaker than expected on certain emotion classes. The work is now part of a conference publication currently in preparation, with the Punjabi results attributed to this track.
+
+→ Full technical writeup and code: [Emotion-Voice-AI](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition)
 
 <br>
 
@@ -31,9 +35,7 @@ Built a speech emotion detection system spanning six Indian languages. Owned the
 <td width="100%">
 
 ### [Emotion-Voice-AI](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition)
-A speech emotion recognition system that detects emotion from *how* something is said, not *what's* said — using acoustic features rather than text. Built as my own module inside a larger multilingual voice assistant project: I designed the recording protocol, ran the sessions, engineered the features, and trained the model, from a blank slate to a working real-time demo.
-
-**Result:** a 1,125-sample self-collected Punjabi emotional speech dataset — one of the first structured datasets of its kind — feeding a trained Random Forest classifier with full real-time microphone testing.
+Full pipeline and code for the internship work above — feature extraction with `librosa`, a tuned Random Forest classifier, and a live microphone-to-prediction loop for real-time testing.
 
 `Python` `librosa` `Random Forest` `Acoustic Feature Engineering`
 
@@ -107,6 +109,23 @@ A four-layer CNN (FinalSRCNN) trained twice — once on CPU with PyTorch, once o
 
 **ML / NLP:** DistilBERT · Sentence-BERT · FAISS · spaCy · librosa · scikit-learn
 **Core CS:** Data Structures & Algorithms · Operating Systems · DBMS · OOP · Software Engineering
+
+<br>
+
+## GitHub Analytics
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gagan2435&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gagan2435&layout=compact&theme=radical&hide_border=true" />
+</div>
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gagan2435&theme=radical&hide_border=true" alt="streak stats"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gagan2435&theme=redical&hide_border=true" alt="activity graph"/>
+</div>
 
 <br>
 
