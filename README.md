@@ -1,69 +1,138 @@
 <div align="center">
 
-#  Gagandeep
+# Gagandeep
 
-**B.Tech Computer Engineering · Thapar Institute of Engineering & Technology · 2027**
-
-![](https://img.shields.io/badge/CGPA-8.55%2F10-6C63FF?style=flat-square)
-![](https://komarev.com/ghpvc/?username=Gagan2435&label=Visitors&color=6C63FF&style=flat-square)
-
-*Turning ML research, GPU code, and cloud systems into things that actually run.*
-
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&lines=B.Tech+Computer+Engineering+%40+Thapar;ML+Research+%2B+Cloud+%2B+Systems+Engineering;I+build+the+unabstracted+version+of+the+problem" alt="Typing SVG" />
 
 <br>
 
-## 🧭 Currently
+<img src="https://img.shields.io/badge/CGPA-8.55%2F10-6C63FF?style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=Gagan2435&label=PROFILE+VIEWS&color=6C63FF&style=for-the-badge" alt="profile views" />
+<img src="https://img.shields.io/github/followers/Gagan2435?label=FOLLOWERS&style=for-the-badge&color=6C63FF" alt="followers" />
 
--  Working on multilingual emotion-aware speech AI — 6 Indian languages, ML + acoustic features
--  Comfortable going from CUDA kernels to serverless AWS pipelines
--  Co-contributor on a Punjabi emotional speech dataset heading toward a conference publication
--  Into tech-for-sustainability and open-source work on the side
+*I don't stop at calling a library. Hand-written CUDA kernels instead of cuDNN. Self-collected datasets instead of a Kaggle download. Serverless architecture that costs nothing until someone actually uses it.*
+
+</div>
 
 <br>
 
 ## Experience
 
-**ML Research Intern** — *Emotion-Aware Multilingual Speech AI, ELC Internship (under Dr. Aditi)* · Summer 2025
-- Built a chatbot detecting emotion from speech across Hindi, Punjabi, Malayalam, Telugu, Gujarati & Bengali using ML and acoustic features
-- Collected and curated a custom Punjabi emotional speech dataset (15 participants × 15 scripted lines × 5 emotion classes) — feeding into an in-progress conference publication
+**ML Research Intern** — *Emotion-Aware Multilingual Speech AI, ELC Internship, Thapar Institute (under Dr. Aditi)* · Summer 2025
+
+Built a speech emotion detection system spanning six Indian languages. Owned the Punjabi module end to end — designed the recording protocol, ran the data collection with 15 volunteers, engineered acoustic features, and trained the classifier. The dataset is now feeding into an in-progress conference publication.
 
 <br>
 
-##  Projects
+## Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| 🚀 **GPU-Accelerated Image Super-Resolution** | Custom CUDA C++ kernels (upsampling, convolution, ReLU, loss, optimizer) to parallelize training across GPU threads; benchmarked PSNR & train time vs. CPU baseline | `CUDA` `C++` |
-| ⛓️ [**SoulChain — AI Blockchain Mood Journal**](https://github.com/Gagan2435/AI-Blockchain-Mood-Journal) | Detects emotion from journal entries (TextBlob) and hashes each entry (SHA-256) onto BlockDAG for tamper-proof, private mood tracking. Live demo shipped at BlockDAG Hackathon 2025 | `Python` `Flask` `TextBlob` `BlockDAG` |
-| 🕵️ [**Cyber-LexiBot**](https://github.com/Gagan2435/Cyber-LexiBot) | Cybercrime intent detection & law recommendation bot — DistilBERT + Sentence-BERT for semantic NLP, FAISS for fast similarity search | `DistilBERT` `Sentence-BERT` `FAISS` `spaCy` |
-| ☁️ [**AWS Serverless Online Examination System**](https://github.com/Gagan2435/aws-serverless-online-examination-system) | Fully serverless, auto-scaling exam platform built for high availability | `Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront` |
-| 🎙️ [**Punjabi Speech Emotion Recognition**](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition) | Punjabi voice-based emotion detection using ML and acoustic speech features, from the ELC internship | `Python` |
-| 🏥 **Hospital Management System** | SQL-based system managing patient records, appointments, and medical histories | `SQL` |
+<table>
+<tr>
+<td width="100%">
+
+### [Emotion-Voice-AI](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition)
+A speech emotion recognition system that detects emotion from *how* something is said, not *what's* said — using acoustic features rather than text. Built as my own module inside a larger multilingual voice assistant project: I designed the recording protocol, ran the sessions, engineered the features, and trained the model, from a blank slate to a working real-time demo.
+
+**Result:** a 1,125-sample self-collected Punjabi emotional speech dataset — one of the first structured datasets of its kind — feeding a trained Random Forest classifier with full real-time microphone testing.
+
+`Python` `librosa` `Random Forest` `Acoustic Feature Engineering`
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
+### [ExamCloud — Serverless Online Examination System](https://github.com/Gagan2435/aws-serverless-online-examination-system)
+A fully serverless exam platform — nothing runs, and nothing costs, until a student loads a question. Built entirely on managed AWS services, with no EC2 instance in sight.
+
+**Result:** a complete Lambda → API Gateway → DynamoDB → S3/CloudFront pipeline that scales from one student to thousands with zero configuration change.
+
+`AWS Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront`
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
+### [Cyber LexiBot](https://github.com/Gagan2435/Cyber-LexiBot)
+An AI assistant that takes a plain-language cybercrime complaint and turns it into a classified incident, the exact section of Indian IT law that applies, and a concrete next step. Fine-tuned DistilBERT for intent classification across six incident types, paired with Sentence-BERT + FAISS for legal-section retrieval and spaCy for entity extraction.
+
+**Result:** roughly 84% classification accuracy under realistic, noise-injected evaluation on a 2,000-record test set.
+
+`DistilBERT` `Sentence-BERT` `FAISS` `spaCy`
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
+### [SoulChain — AI Blockchain Mood Journal](https://github.com/Gagan2435/AI-Blockchain-Mood-Journal)
+A private mood journal that proves an entry existed at a given time without ever revealing what it said. Entries are analyzed for emotion with TextBlob, then hashed with SHA-256 and published to the BlockDAG blockchain. Built solo for the BlockDAG Hackathon 2025.
+
+**Result:** a working live demo with full entry history and emotion-trend visualization, shipped within the hackathon window.
+
+`Python` `Flask` `TextBlob` `BlockDAG` `SHA-256`
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
+### [GPU-Accelerated Image Super-Resolution](https://github.com/Gagan2435/UCS645/tree/main/Project)
+A four-layer CNN (FinalSRCNN) trained twice — once on CPU with PyTorch, once on hand-written CUDA C++ kernels — to get a real, measured GPU speedup instead of a claimed one. Every stage of the training loop, from forward convolution to the Adam optimizer update, was written as its own CUDA kernel rather than delegated to a framework.
+
+**Result:** 2.31× faster training (1,447.88s → 626.26s), with the GPU run also converging to a lower final loss.
+
+`CUDA C++` `PyTorch` `CNN` `VGG16 Perceptual Loss`
+
+</td>
+</tr>
+</table>
 
 <br>
 
-## 🛠️ Skills
+## Technical Skills
 
-**Languages**
-`Python` `C++` `CUDA` `SQL` `JavaScript`
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
 
-**Cloud & Platforms**
-`AWS Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront` `Flask` `Git`
-
-**Core CS**
-`Data Structures & Algorithms` `Operating Systems` `DBMS` `OOP` `Software Engineering`
+**ML / NLP:** DistilBERT · Sentence-BERT · FAISS · spaCy · librosa · scikit-learn
+**Core CS:** Data Structures & Algorithms · Operating Systems · DBMS · OOP · Software Engineering
 
 <br>
 
-## 🤝 Reach Me
+## GitHub Analytics
 
 <div align="center">
-
-[![Email](https://img.shields.io/badge/-bsonu5147@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:bsonu5147@gmail.com)
-[![GitHub](https://img.shields.io/badge/-Gagan2435-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gagan2435)
-
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gagan2435&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gagan2435&layout=compact&theme=radical&hide_border=true" />
 </div>
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gagan2435&theme=radical&hide_border=true" alt="streak stats"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gagan2435&theme=redical&hide_border=true" alt="activity graph"/>
+</div>
+
+<br>
+
+## Reach Me
+
+<p align="left">
+  <a href="mailto:bsonu5147@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Gagan2435"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 <div align="center">
 <sub>Problem-solving · Quick learning · Teamwork · Time management · Adaptability</sub>
