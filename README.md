@@ -110,23 +110,6 @@ A four-layer CNN (FinalSRCNN) trained twice — once on CPU with PyTorch, once o
 
 <br>
 
-## GitHub Analytics
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gagan2435&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gagan2435&layout=compact&theme=radical&hide_border=true" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gagan2435&theme=radical&hide_border=true" alt="streak stats"/>
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gagan2435&theme=redical&hide_border=true" alt="activity graph"/>
-</div>
-
-<br>
-
 ## Reach Me
 
 <p align="left">
