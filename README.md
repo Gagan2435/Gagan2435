@@ -1,106 +1,80 @@
-<h1 align="center">Hi 👋, I'm Gagandeep</h1>
-<h3 align="center">Computer Science @ Thapar Institute | ML, Web Dev & Cybersecurity Enthusiast</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Building+AI-powered+applications;Exploring+ML+%2B+Blockchain+%2B+Cloud;Learning+never+stops+%F0%9F%9A%80" alt="Typing SVG" />
-</p>
+# ⚡ Gagandeep
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Gagan2435&label=Profile+Views&color=00f7ff&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/Gagan2435?label=Followers&style=flat&color=00f7ff" alt="followers" />
-</p>
+**B.Tech Computer Engineering · Thapar Institute of Engineering & Technology · 2027**
 
----
+![](https://img.shields.io/badge/CGPA-8.55%2F10-6C63FF?style=flat-square)
+![](https://img.shields.io/badge/Location-Sunam%2C%20Punjab-6C63FF?style=flat-square)
+![](https://komarev.com/ghpvc/?username=Gagan2435&label=Visitors&color=6C63FF&style=flat-square)
 
-### 🚀 About Me
+*Turning ML research, GPU code, and cloud systems into things that actually run.*
 
-- 🎓 Pursuing **Computer Science Engineering** at **Thapar Institute of Engineering & Technology**
-- 💡 Passionate about **problem-solving, web development, and machine learning**
-- 🧠 Interested in applying AI to real-world problems — from **speech emotion recognition** to **cybercrime detection**
-- ⛓️ Exploring **blockchain-backed** and **serverless cloud** architectures
-- 📌 "Learning never stops."
+</div>
 
----
+<br>
 
-### 🛠️ Tech Stack
+## 🧭 Currently
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
+- 🔬 Working on multilingual emotion-aware speech AI — 6 Indian languages, ML + acoustic features
+- ⚙️ Comfortable going from CUDA kernels to serverless AWS pipelines
+- 📄 Co-contributor on a Punjabi emotional speech dataset heading toward a conference publication
+- 🌱 Into tech-for-sustainability and open-source work on the side
 
-**ML / NLP:** DistilBERT · Sentence-BERT · FAISS · spaCy &nbsp;|&nbsp; **Cloud:** AWS Lambda · API Gateway · DynamoDB · S3 · CloudFront &nbsp;|&nbsp; **Other:** Blockchain (BlockDAG)
+<br>
 
----
+## 🧑‍🔬 Experience
 
-### 🌟 Featured Projects
+**ML Research Intern** — *Emotion-Aware Multilingual Speech AI, ELC Internship (under Dr. Aditi)* · Summer 2025
+- Built a chatbot detecting emotion from speech across Hindi, Punjabi, Malayalam, Telugu, Gujarati & Bengali using ML and acoustic features
+- Collected and curated a custom Punjabi emotional speech dataset (15 participants × 15 scripted lines × 5 emotion classes) — feeding into an in-progress conference publication
 
-<table>
-<tr>
-<td width="50%">
+<br>
 
-**🎙️ [Punjabi Speech Emotion Recognition](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition)**
-Punjabi voice-based emotion detection system built during an ELC Internship at Thapar, using ML and acoustic speech features.
-`Python`
+## 🧩 Projects
 
-</td>
-<td width="50%">
+| Project | What it does | Stack |
+|---|---|---|
+| 🚀 **GPU-Accelerated Image Super-Resolution** | Custom CUDA C++ kernels (upsampling, convolution, ReLU, loss, optimizer) to parallelize training across GPU threads; benchmarked PSNR & train time vs. CPU baseline | `CUDA` `C++` |
+| ⛓️ [**SoulChain — AI Blockchain Mood Journal**](https://github.com/Gagan2435/AI-Blockchain-Mood-Journal) | Detects emotion from journal entries (TextBlob) and hashes each entry (SHA-256) onto BlockDAG for tamper-proof, private mood tracking. Live demo shipped at BlockDAG Hackathon 2025 | `Python` `Flask` `TextBlob` `BlockDAG` |
+| 🕵️ [**Cyber-LexiBot**](https://github.com/Gagan2435/Cyber-LexiBot) | Cybercrime intent detection & law recommendation bot — DistilBERT + Sentence-BERT for semantic NLP, FAISS for fast similarity search | `DistilBERT` `Sentence-BERT` `FAISS` `spaCy` |
+| ☁️ [**AWS Serverless Online Examination System**](https://github.com/Gagan2435/aws-serverless-online-examination-system) | Fully serverless, auto-scaling exam platform built for high availability | `Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront` |
+| 🎙️ [**Punjabi Speech Emotion Recognition**](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition) | Punjabi voice-based emotion detection using ML and acoustic speech features, from the ELC internship | `Python` |
+| 🏥 **Hospital Management System** | SQL-based system managing patient records, appointments, and medical histories | `SQL` |
 
-**🧾 [AI Blockchain Mood Journal](https://github.com/Gagan2435/AI-Blockchain-Mood-Journal)**
-AI-powered mood journal secured on blockchain for tamper-proof, private emotional tracking. Built for BlockDAG Hackathon 2025.
-`HTML`
+<br>
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+## 🛠️ Skills
 
-**☁️ [AWS Serverless Online Examination System](https://github.com/Gagan2435/aws-serverless-online-examination-system)**
-A fully serverless exam platform built on AWS using Lambda, API Gateway, DynamoDB, S3, and CloudFront.
-`HTML`
+**Languages**
+`Python` `C++` `CUDA` `SQL` `JavaScript`
 
-</td>
-<td width="50%">
+**Cloud & Platforms**
+`AWS Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront` `Flask` `Git`
 
-**🕵️ [Cyber-LexiBot](https://github.com/Gagan2435/Cyber-LexiBot)**
-AI-powered cybercrime intent detection & law recommendation bot using DistilBERT, Sentence-BERT, FAISS, and spaCy.
-`Jupyter Notebook`
+**Core CS**
+`Data Structures & Algorithms` `Operating Systems` `DBMS` `OOP` `Software Engineering`
 
-</td>
-</tr>
-</table>
+<br>
 
----
+## 📈 GitHub Stats
 
-### 📊 GitHub Analytics
+<div align="center">
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Gagan2435&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gagan2435&layout=compact&theme=radical&hide_border=true" />
+</div>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Gagan2435&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gagan2435&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+<br>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gagan2435&theme=tokyonight&hide_border=true" alt="streak stats"/>
-</p>
+## 🤝 Reach Me
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gagan2435&theme=tokyo-night&hide_border=true" alt="activity graph"/>
-</p>
+<div align="center">
 
----
+[![Email](https://img.shields.io/badge/-bsonu5147@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:bsonu5147@gmail.com)
+[![GitHub](https://img.shields.io/badge/-Gagan2435-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gagan2435)
 
-### 📫 Connect With Me
+</div>
 
-<p align="left">
-  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/Gagan2435"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
-<p align="center">💬 Open to collaboration on ML, web dev, and cloud projects!</p>
+<div align="center">
+<sub>Problem-solving · Quick learning · Teamwork · Time management · Adaptability</sub>
+</div>
