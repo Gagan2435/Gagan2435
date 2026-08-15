@@ -22,7 +22,7 @@
 
 Joined a research team building a multilingual voice assistant that reads emotion from speech across six Indian languages — Hindi, Punjabi, Malayalam, Telugu, Gujarati, and Bengali. Within a six-person effort spanning all six languages, I was individually responsible for the Punjabi language track, run as an independent sub-project under the same supervision and publication goal.
 
-Day to day, this meant coordinating and supervising live recording sessions inside the university (not just running a script against existing audio), making protocol decisions about sentence selection and emotion balance across the dataset, and iterating on the acoustic feature set once the first model runs came back weaker than expected on certain emotion classes. The work is now part of a conference publication currently in preparation, with the Punjabi results attributed to this track.
+Day to day, this meant coordinating and supervising live recording sessions inside the university (not just running a script against existing audio), making protocol decisions about sentence selection and emotion balance across the dataset, and building the model pipeline myself — extracting acoustic features (MFCC, chroma, pitch, energy), training a Random Forest classifier on top of them, and evaluating it with a confusion matrix and live microphone testing. When early runs scored weaker on certain emotion classes, I went back and reworked the feature set myself until results held up. The work is now part of a conference publication currently in preparation, with the Punjabi results — data, model, and evaluation — attributed entirely to this track.
 
 → Full technical writeup and code: [Emotion-Voice-AI](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition)
 
