@@ -34,18 +34,8 @@ Day to day, this meant coordinating and supervising live recording sessions insi
 <tr>
 <td width="100%">
 
-### [Emotion-Voice-AI](https://github.com/Gagan2435/Punjabi-Speech-Emotion-Recognition)
-Full pipeline and code for the internship work above — feature extraction with `librosa`, a tuned Random Forest classifier, and a live microphone-to-prediction loop for real-time testing.
-
-`Python` `librosa` `Random Forest` `Acoustic Feature Engineering`
-
-</td>
-</tr>
-<tr>
-<td width="100%">
-
 ### [ExamCloud — Serverless Online Examination System](https://github.com/Gagan2435/aws-serverless-online-examination-system)
-A fully serverless exam platform — nothing runs, and nothing costs, until a student loads a question. Built entirely on managed AWS services, with no EC2 instance in sight.
+No servers. No downtime. Just exams, scored the moment they're submitted. Every layer here — question delivery, answer submission, grading — runs on demand, in the cloud, and costs nothing when idle. Built entirely on managed AWS services, with no EC2 instance in sight.
 
 **Result:** a complete Lambda → API Gateway → DynamoDB → S3/CloudFront pipeline that scales from one student to thousands with zero configuration change.
 
@@ -57,7 +47,7 @@ A fully serverless exam platform — nothing runs, and nothing costs, until a st
 <td width="100%">
 
 ### [Cyber LexiBot](https://github.com/Gagan2435/Cyber-LexiBot)
-An AI assistant that takes a plain-language cybercrime complaint and turns it into a classified incident, the exact section of Indian IT law that applies, and a concrete next step. Fine-tuned DistilBERT for intent classification across six incident types, paired with Sentence-BERT + FAISS for legal-section retrieval and spaCy for entity extraction.
+Most people who've been scammed or harassed online don't know which law covers it, let alone what to do next. This bot reads a plain-language complaint the way a person would tell a friend what happened, and turns it into a classified incident, the relevant section of Indian cyber law, and a concrete next step. Fine-tuned DistilBERT for intent classification across six incident types, paired with Sentence-BERT + FAISS for legal-section retrieval and spaCy for entity extraction.
 
 **Result:** roughly 84% classification accuracy under realistic, noise-injected evaluation on a 2,000-record test set.
 
@@ -69,7 +59,7 @@ An AI assistant that takes a plain-language cybercrime complaint and turns it in
 <td width="100%">
 
 ### [SoulChain — AI Blockchain Mood Journal](https://github.com/Gagan2435/AI-Blockchain-Mood-Journal)
-A private mood journal that proves an entry existed at a given time without ever revealing what it said. Entries are analyzed for emotion with TextBlob, then hashed with SHA-256 and published to the BlockDAG blockchain. Built solo for the BlockDAG Hackathon 2025.
+A safe space for your feelings — analyzed by AI, sealed with Web3. Every entry gets read for emotion by TextBlob, then hashed with SHA-256 and published to the BlockDAG blockchain — proof that the entry existed, with the content itself never exposed. Built solo for the BlockDAG Hackathon 2025.
 
 **Result:** a working live demo with full entry history and emotion-trend visualization, shipped within the hackathon window.
 
@@ -81,7 +71,7 @@ A private mood journal that proves an entry existed at a given time without ever
 <td width="100%">
 
 ### [GPU-Accelerated Image Super-Resolution](https://github.com/Gagan2435/UCS645/tree/main/Project)
-A four-layer CNN (FinalSRCNN) trained twice — once on CPU with PyTorch, once on hand-written CUDA C++ kernels — to get a real, measured GPU speedup instead of a claimed one. Every stage of the training loop, from forward convolution to the Adam optimizer update, was written as its own CUDA kernel rather than delegated to a framework.
+Most papers report a GPU speedup number without ever showing the CPU side of the comparison. This one builds both — the same four-layer CNN, trained under identical conditions, once with PyTorch on CPU and once with CUDA C++ written from scratch — so the speedup isn't a claim, it's a measurement. Every stage of the training loop, from forward convolution to the Adam optimizer update, runs as its own hand-written CUDA kernel.
 
 **Result:** 2.31× faster training (1,447.88s → 626.26s), with the GPU run also converging to a lower final loss.
 
@@ -108,24 +98,7 @@ A four-layer CNN (FinalSRCNN) trained twice — once on CPU with PyTorch, once o
 </p>
 
 **ML / NLP:** DistilBERT · Sentence-BERT · FAISS · spaCy · librosa · scikit-learn
-**Core CS:** Data Structures & Algorithms · Operating Systems · DBMS · OOP · Software Engineering
-
-<br>
-
-## GitHub Analytics
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gagan2435&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gagan2435&layout=compact&theme=radical&hide_border=true" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gagan2435&theme=radical&hide_border=true" alt="streak stats"/>
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gagan2435&theme=redical&hide_border=true" alt="activity graph"/>
-</div>
+**Languages:** English, Hindi, Punjabi
 
 <br>
 
